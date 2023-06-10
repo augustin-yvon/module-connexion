@@ -1,0 +1,26 @@
+@import url(./main.css);
+
+.main-container {
+    margin: auto;
+    margin-top: 5vh;
+    flex-grow: 1;
+}
+
+table {
+    border: 1px solid #be8c00;
+    border-collapse: collapse;
+    width: 75vw;
+    text-indent: 0;
+}
+
+th, td {
+    text-align: left;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 8px;
+    border: 1px solid #be8c00;
+}
+
+tr{
+    height: 5vh;
+}

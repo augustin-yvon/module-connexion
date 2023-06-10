@@ -1,0 +1,74 @@
+@import url(./main.css);
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat-VariableFont_wght.ttf);
+}
+
+/************************HERO************************/
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    padding-bottom: 3vw;
+    border-bottom: 2px solid #353535;
+}
+.hero h1{
+    margin: 0;
+    font-size: 4rem;
+}
+.hero h1 div{
+    display: flex;
+}
+
+.space-before_le{
+    width: 8vw;
+}
+.space-after_le{
+    width: 1vw;
+}
+.gold{
+    color: #FFBD00;
+}
+.gray{
+    color: #353535;
+}
+
+
+/************************CONTENT************************/
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.form{
+    display: flex;
+    gap: 4vw;
+}
+
+.button{
+    cursor: pointer;
+    background-color: #d47f00;
+    color: black;
+    padding: 1vw 2vw;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    transition: transform 0.5s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: #f5a700;
+}

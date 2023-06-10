@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat-VariableFont_wght.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+    color: white;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    color: white;
+}
+
+
+/************************HEADER************************/
+header {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+.header-logo{
+    width: 50%;
+}
+.header-logo img{
+    height: 100%;
+    padding-top: 2vh;
+    padding-left: 1.5vw;
+    cursor: pointer;
+}
+
+.header-profil{
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    padding-right: 1vw;
+}
+.header-profil-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.header-profil img{
+    width: 40px;
+    cursor: pointer;
+}
+.logout-button{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #d47f00;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 30px;
+    transition: transform 0.5s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+.logout-button:hover {
+    transform: scale(1.1);
+    background-color: #f5a700;
+}
+
+
+/************************FOOTER************************/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 5vw;
+    background-color: #161616;
+    color: rgb(161, 161, 161);
+    border-top: 2px solid #666666;
+}
+
+footer a {
+    color: rgb(161, 161, 161);
+}
