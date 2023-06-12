@@ -3,7 +3,7 @@ require_once 'utilisateurs.php';
 
 session_start();
 
-$conn = new PDO('mysql:host=localhost;dbname=moduleconnexion;port=3308','root', '');
+$conn = new PDO('mysql:host=localhost:3306;dbname=augustin-yvon_moduleconnexion;','Admin', 'Admin@1394');
 
 if (isset($_SESSION['user'])) {
     $user = $_SESSION['user'];
