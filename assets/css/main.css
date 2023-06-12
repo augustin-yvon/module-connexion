@@ -44,7 +44,8 @@ header {
     display: flex;
     justify-content: right;
     width: 50%;
-    padding-right: 1vw;
+    padding-right: 1.5vw;
+	padding-top: 2vh;
 }
 .header-profil-container{
     display: flex;
@@ -52,7 +53,6 @@ header {
     justify-content: center;
     align-items: center;
     gap: 10px;
-
 }
 .header-profil img{
     width: 40px;
